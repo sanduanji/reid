@@ -18,3 +18,10 @@ for picture in pictures:
 		break
 cv2.destroyAllWindows()
 ```
+#faster rcnn for reid usage
+'''
+faster rcnn for reid 剪切行人图片功能运行
+
+1：demo.py in line407 设置write json路径
+2：import /lib/data/save_json.py cut_image函数，读取存储目标坐标框的json信息文件，裁剪目标图片
+‘’‘
